@@ -45,5 +45,34 @@ git clone <repository-url> my-project
 # Check repository status
 git status
 
+// Git Branch Commands
+# List branches
+git branch
 
+# Create a branch
+git branch feature
+
+# Switch branch
+git switch feature
+
+# Create and switch branch
+git switch -c feature
+
+# Switch to main
+git switch main
+
+# Delete a branch
+git branch -d feature
+
+# Force delete a branch
+git branch -D feature
+
+# Rename current branch
+git branch -m new-name
+
+# List remote branches
+git branch -r
+
+# List all branches
+git branch -a
 
