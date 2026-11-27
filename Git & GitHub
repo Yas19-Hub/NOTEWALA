@@ -31,3 +31,19 @@ git config user.email
 
 # Open Git configuration
 git config --global --edit
+
+// Create a Repository
+# Initialize Git
+git init
+
+# Clone an existing repository
+git clone <repository-url>
+
+# Clone into a specific folder
+git clone <repository-url> my-project
+
+# Check repository status
+git status
+
+
+
