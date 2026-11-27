@@ -9,3 +9,25 @@ Version control tool	Code hosting platform
 Works locally	Works online
 Tracks code changes	Stores and shares repositories
 Open-source	Online platform
+
+///Git Installation & Configuration
+# Check Git version
+git --version
+
+# Set username
+git config --global user.name "Your Name"
+
+# Set email
+git config --global user.email "your@email.com"
+
+# Check configuration
+git config --list
+
+# Check username
+git config user.name
+
+# Check email
+git config user.email
+
+# Open Git configuration
+git config --global --edit
